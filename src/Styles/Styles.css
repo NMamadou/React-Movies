@@ -1,0 +1,248 @@
+.moviesContainer {
+    background-image: url("https://cdn.wallpapersafari.com/36/88/NZbXwt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    margin: 0 auto;
+    flex: 1;
+}
+
+@media only screen and (max-width : 767px) {
+    .moviesContainer {
+        height: 200vh;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .moviesContainer {
+        height: 140vh;
+    }
+}
+
+@media only screen and (min-width : 892px) {
+    .moviesContainer {
+        height: 120vh;
+    }
+}
+
+.multiselectContainer {
+    padding: 10px;
+    background-color: red;
+    opacity: 0.8;
+    font-size: 15px;
+    width: 20%;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30% / 50%;
+}
+
+@media only screen and (max-width : 767px) {
+    .multiselectContainer {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .multiselectContainer {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .multiselectContainer {
+        width: 15%;
+    }
+}
+
+.categoryOption {
+    cursor: pointer;
+}
+
+.categoriesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.cardContainer {
+    box-shadow: 5px 5px 5px 5px black;
+    border-width: 10px;
+    border-color: grey solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 170px;
+    margin: 15px;
+    position: relative;
+}
+
+.movieTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.movieCategory {
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+    font-weight: lighter;
+    padding: 5px;
+    text-align: center;
+}
+
+.movieLikesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+}
+
+.movieLikesButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.movieLikesStats {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+.movieDeleteButton {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    border-width: 5px;
+    border-color: grey solid 1px;
+    border-radius: 10px;
+    background-color: red;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 3px;
+}
+
+.movieDeleteText {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.movieLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationContainer {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width : 460px) {
+    .paginationContainer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.paginationContainerBis {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+/* @media only screen and (max-width : 767px) {
+    .paginationContainerBis {
+        position: relative;
+    }
+} */
+
+/* @media only screen and (min-width : 768px) {
+    .paginationContainerBis {
+        position: relative;
+    }
+} */
+
+.paginationButton {
+}
+
+.paginationButton > li {
+    font-size: 20px;
+    margin-right: 0.3em;
+    color: blue;
+    user-select: none;
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.contentPerPage {
+    position: absolute;
+    top: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 0px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.contentPerPage > select {
+    font-size: 16px;
+    background-color: #F7E1B4;
+    border-radius: 10px;
+}
+
+.activePage {
+    background-color: orange !important;
+}

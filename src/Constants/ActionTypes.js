@@ -1,0 +1,5 @@
+export const GET_MOVIES_AND_CATEGORIES  = 'GET_MOVIES_AND_CATEGORIES'
+export const CHANGE_SELECTED_CATEGORIES = 'CHANGE_SELECTED_CATEGORIES'
+export const LIKE_MOVIE                 = 'LIKE_MOVIE'
+export const DISLIKE_MOVIE              = 'DISLIKE_MOVIE'
+export const DELETE_MOVIE               = 'DELETE_MOVIE'
