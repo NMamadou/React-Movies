@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux'
-import { toggleCard } from './CardReducer'
-import { toggleCategory } from './CategoryReducer'
+import { toggleMovies } from './MovieReducer'
 
 const rootReducer = combineReducers({
-	toggleCard,
-	toggleCategory
+	toggleMovies
 })
 
 export default rootReducer

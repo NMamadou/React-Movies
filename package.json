@@ -1,5 +1,5 @@
 {
-  "name": "react-interview",
+  "name": "testwe-movies-react",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,21 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@bit/adeoy.utils.data-table": "^0.3.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.1.1",
+    "reactstrap": "^8.9.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0"
   },
